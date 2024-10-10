@@ -35,7 +35,7 @@ public class Student
 	     studentAge = sc.nextInt();
 	     
 	     if (studentAge > 18)
-	     {
+	     {  
 	    	 throw new AgeException();
 	     }
 		}catch(NameException | AgeException e) 

@@ -13,3 +13,4 @@ public class ProperNumberException extends Exception
 		return msg;
 	}
 }
+

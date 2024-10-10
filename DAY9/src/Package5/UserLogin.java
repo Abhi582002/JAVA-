@@ -42,9 +42,7 @@ public class UserLogin
 	        	  break;
 	          }
 	          catch(InvalidUserNameException | InvalidPasswordException e)
-	          {
-	        	  
-	        	  {
+	          {       	  
 	        		  System.out.println(e.getMessage());  
 	        		  attempts--;
 	        		  
@@ -56,7 +54,6 @@ public class UserLogin
 	        		  {
 	        			  System.out.println("Maximum login attempts exceeded.");
 	        		  }
-	        	  }
 	          }
 		  }
 	 }

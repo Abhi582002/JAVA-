@@ -30,15 +30,5 @@ public class NumberCheck
 		 {
 			 System.out.println(e.getMessage());
 		 }
-	 }
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
+	 }	 
 }

@@ -1,0 +1,6 @@
+
+
+url=D:\JAVA Eclipse\DAY10\src\Package1
+uname=amit
+password=abcd
+driver=oracle.jdbc

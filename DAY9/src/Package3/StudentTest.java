@@ -10,9 +10,12 @@ public class StudentTest
 	 public static void main(String[] args)
 	 {
 		  Student s = new Student();
-		  try {
+		  try 
+		  {
 			  s.acceptData();
-		  }catch(NameException | AgeException e)
+		  }
+		  
+		  catch(NameException | AgeException e)
 		  {
 			  e.printStackTrace();
 		  }
