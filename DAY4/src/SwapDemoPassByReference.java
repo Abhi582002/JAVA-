@@ -1,3 +1,29 @@
+class MyDate1
+{
+	int d;
+	int m;
+	int y;
+	
+	public MyDate1()
+	{
+		d=m=y=0;
+	}
+	public MyDate1(int d,int m,int y)
+	{
+		this.d=d;
+		this.m=m;
+		this.y=y;
+	}
+	@Override
+	public String toString()
+	{
+		return " "+d+" "+m+" "+y;
+	}
+}
+
+
+
+
 
 public class SwapDemoPassByReference 
 {
@@ -33,25 +59,3 @@ public class SwapDemoPassByReference
 
 
 
-class MyDate 
-{
-	int d;
-	int m;
-	int y;
-	
-	public MyDate()
-	{
-		d=m=y=0;
-	}
-	public MyDate(int d,int m,int y)
-	{
-		this.d=d;
-		this.m=m;
-		this.y=y;
-	}
-	@Override
-	public String toString()
-	{
-		return " "+d+" "+m+" "+y;
-	}
-}
